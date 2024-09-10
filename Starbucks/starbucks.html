@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>starbucks</title>
+</head>
+<body>  
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="logo"><img src="Social_Logo/logo.png"></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">What's News</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+</header> 
+  <div class="content">
+    <div class="textbox">
+        
+        <h2>It's not just coffee<br>It's <span>Starbucks</span></h2>
+        <p> New year, cool new brew
+            Introducing Pistachio Cream Cold Brew—bold, smooth coffee topped with pistachio cream cold foam
+            Long walks with pistachio
+            Keep it cozy with a Pistachio Latte finished with a brown-buttery topping
+            Wrap your day
+            Savory ingredients come together in our Bacon, Sausage & Egg Wrap for a satisfying meal on the go.</p>
+        <a href="#">Learn More</a>  
+  </div>
+   <div class="imgBox">
+    <img src="img1.png" class="starbucks">
+
+   </div>
+  </div> 
+  <ul class="thumb">
+    <li><img src="IMG/thumb1.png" onclick="imgslider('/img1.png')"></li>
+    <li><img src="IMG/thumb2.png" onclick="imgslider('img 2.png')"></li>
+    <li><img src="IMG/thumb3.png" onclick="imgslider('img3.png')"></li>
+  </ul>
+  <ul class="sci">
+    <li><a href="#"><img src="Social_Logo/facebook.png"></a></li>
+    <li><a href="https://youtu.be/91Q6RvKvd7ot=585"><img src="Social_Logo/instagram.png"></a></li>
+    <li><a href="#"><img src="Social_Logo/twitter.png"></a></li>
+  </ul>
+</section>
+
+<!-- javascript part -->
+<script type="text/javascript">
+  function imgslider(anything){
+    document.querySelector('.starbucks').src = anything;
+  }
+</script>
+
+
+</body>
+</html>
